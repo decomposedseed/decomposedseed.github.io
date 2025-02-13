@@ -46,7 +46,7 @@
 
 #inside-recipient {
   color: #000;
-  font-size: 12pt;
+  font-size: 15pt;
   padding: 20px 0 40px 0;
 }
 
@@ -57,21 +57,21 @@
 }
 
 #message {
-  font-size: 12pt;
+  font-size: 13pt;
   text-align: center;
   padding: 0 20px 0 20px;
 }
 
 #inside-sender {
   color: #000;
-  font-size: 12pt;
+  font-size: 13pt;
   text-align: center;
   padding: 0 20px 0 20px;
 }
 
 
 body {
-  font-family: 'Shadows Into Light Two', cursive;
+  font-family: 'Tinos', cursive;
 
   background: linear-gradient(-45deg,  #000000, #381a1a, #000000, #381a1a);
   background-size: 400% 400%;
