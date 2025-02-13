@@ -72,22 +72,26 @@
 
 body {
   font-family: 'Tinos', cursive;
-
   background: linear-gradient(-45deg,  #000000, #381a1a, #000000, #381a1a);
   background-size: 400% 400%;
   -webkit-animation: Gradient 15s ease infinite;
- 
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+body.loaded {
+  opacity: 1;
 }
 
 @-webkit-keyframes Gradient {
   0% {
-    background-position: 0% 50%
+    background-position: 0% 10%
   }
   50% {
-    background-position: 70% 50%
+    background-position: 70% 80%
   }
   100% {
-    background-position: 0% 50%
+    background-position: 0% 10%
   }
 }
 

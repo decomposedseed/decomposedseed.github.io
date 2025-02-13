@@ -1,7 +1,8 @@
 /*Didn't include CSS reset becuase it breaks heart on envelop*/
 
 body{
-  background: rgb(0, 0, 0);
+  background: linear-gradient(-45deg,  #000000, #381a1a, #000000, #381a1a);
+  background-size: 400% 400%;
 
 }
 #banner{
@@ -60,7 +61,7 @@ body{
   max-width:10%;
   position:absolute;
   z-index: 1;
-  padding-left: 13.5%;
+  padding-left: 12.5%;
   padding-top: 8%;
   animation: heart 1s infinite;
 
