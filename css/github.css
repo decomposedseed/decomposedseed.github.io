@@ -1,0 +1,97 @@
+#front {
+  z-index: 1;
+  position: absolute;
+  background-color: #2f2c2c;
+  width:590px;
+  height: 660px;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+  border: 1px solid #32313154;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4%;
+  left: 0;
+  right: 0;
+  padding-top: 5%;
+}
+
+.open-card {
+  transform: rotateY(180deg);
+}
+
+#front-title {
+  max-width: 90%;
+  padding-bottom: 3%;
+}
+
+#front-pic {
+  max-width: 65%;
+}
+
+#inside {
+  z-index: 0;
+  position: absolute;
+  background-color: white;
+  width: 590px;
+  height: 660px;
+  text-align: center;
+  border: 1px solid #000;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  padding-top: 5%;
+}
+
+#inside-recipient {
+  color: #000;
+  font-size: 15pt;
+  padding: 20px 0 40px 0;
+}
+
+#inside-pic {
+  width: auto;
+  height: 150px;
+  margin-bottom: 32px;
+}
+
+#message {
+  font-size: 13pt;
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+
+#inside-sender {
+  color: #000;
+  font-size: 13pt;
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+
+
+body {
+  font-family: 'Tinos', cursive;
+  background: linear-gradient(-45deg,  #000000, #381a1a, #000000, #381a1a);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+body.loaded {
+  opacity: 1;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 10%
+  }
+  50% {
+    background-position: 70% 80%
+  }
+  100% {
+    background-position: 0% 10%
+  }
+}
+
