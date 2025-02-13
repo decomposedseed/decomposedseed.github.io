@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function() {
+  document.body.classList.add('loaded');
+});
+
 function open_card() {
   document.getElementById('front').className = 'open-card';
 }
